@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -60,12 +60,9 @@
     <script>
         // example 1: display children
         let children = document.body.children;
-        for (let i = 0; i < children.length; i = i + 2 ) {
-            children[i].textContent="Titre";
-            children[i].textContent=children[i].textContent.toUpperCase();
+        for (let i = 0; i < children.length; i = i + 1) {
+            console.log(children[i]);
         }
-<<<<<<< HEAD
-=======
         // example 2: change child content
         children[0].textContent = "dominique";
 
@@ -80,7 +77,6 @@
         for (let i = 0; i < titles.length; i = i + 1) {
             titles[i].textContent = "hi from js " + i;
         }
->>>>>>> 7b0ca08b6e9023762c98a0b842c0d0e3d130a809
     </script>
 </body>
 
